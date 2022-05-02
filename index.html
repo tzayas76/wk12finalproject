@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <title>Restaurant App</title>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"> 
+        <link rel="stylesheet" href="styles.css">
+  
+    </head>
+    <body class="container">
+        <!-- Gave a class to change in CSS, if desired -->
+        <div class="d-flex justify-content-center">
+            <h1 class="rest-name" >Cheesy Does It Restaurant</h1>
+        </div>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-sm">
+                <div class="container">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home Page</a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="makeres.html">Make/Check Reservations</a>
+                    </li> 
+  <!-- Removed Check reservations link. Combined make & check reservations pages. (Toni) -->
+                  </ul>
+                </div>
+              </nav>
+        </div>
+          <blockquote class="blockquote text-center">
+            <p class="mb-0">Reservations available for Sunday brunch, lunch, or dinner!</p>
+          </blockquote>
+          <br>
+          <div class="card-group">
+            <div class="card">
+              <img src="http://images.squarespace-cdn.com/content/v1/5ef388cda66259514aff6190/1610900213785-S552TPSOHG53250MPD1Y/b-brunch-min.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Sunday brunch</h5>
+                <p class="card-text">Join us on Sundays for our famous Sunday brunch.
+                    Every Sunday from 10am until 2pm.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://img.taste.com.au/xp00J1UY/w643-h428-cfill-q90/taste/2016/11/pork-and-bean-burrito-bowl-109208-1.jpeg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Lunch</h5>
+                <p class="card-text">Our fabulous lunch menu is offered everyday between 11am and 4pm!</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F23%2F2022%2F03%2F30%2Feasy-dinner-recipes.jpg&w=400&h=268&c=sc&poi=%5B601%2C470%5D&q=60" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Dinner</h5>
+                <p class="card-text">Our dinner menu is the talk of the town.  Unique entrees from our top-rated chefs, cooked fresh to order.  Dinner served 7 days a week from 4pm until 10pm.</p>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row d-flex justify-content-center align-content-center">
+            <a href="makeres.html" class="btn btn-info" style="width: 400px">Make your reservation here</a>
+          </div>
+          <script src="node_modules/jquery/dist/jquery.js"></script>
+          <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
+  </html>
