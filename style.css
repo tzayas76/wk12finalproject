@@ -1,0 +1,33 @@
+.container{ 
+        background-color:lightcyan;
+}
+.rest-name{
+  color:rgb(153, 123, 83); font-size: 35px; 
+}
+
+p {
+    font-size: 20px;
+}
+div {
+    background-color: lightgrey; border-style: solid; border-color: linen; border-radius: 5px
+}
+h4 {
+    color:rgb(60, 60, 141)
+}
+h2 {
+    color:rgb(59, 59, 165);
+}
+
+.shadow-text {
+    text-shadow: darkgrey 1px 1px
+}
+#large-paragraph{
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Toni completed Css style sheet for group project */
